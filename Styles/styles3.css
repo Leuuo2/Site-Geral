@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/182428240217.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    color: rgb(85, 79, 79);
+    background-color: rgba(14, 1, 128, 0);
+    text-align: center;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+}
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(36, 35, 35, 0.767);
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    border-radius: 20px;
+}
+nav a {
+    float: left;
+    color: rgb(202, 198, 198);
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 14px;
+    transition: 0.5s;
+    
+}
+nav a:hover {
+background-color: #330a3b;
+color: white;
+}
+nav a.ativo{
+background-color: rgb(68, 21, 122);
+color:white
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home h2 {
+    color: rgb(170, 169, 169);
+    padding: 20px;
+    font-size: 20px;
+}
+#home h1 {
+    color: rgb(170, 169, 169);
+    text-align: center;
+    font-size: 50px;
+}
+#home p {
+    color: #ddd;
+    font-size: 20px;
+}
+#home #conteiner1{
+    
+    
+    display: block;
+    justify-content: center;;
+
+    max-width: 100%;
+}
+.Pontos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+#home #conteiner3{
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+}
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    transition: all 0.2s;
+    border-radius: 20px;
+}
+
+footer{
+    width: 100%;
+    color: rgb(56, 48, 48);
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+}
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    list-style: none;
+;
+}
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    transition: all 0.2s;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9,#ff2992, #ff9807);
+    background-size: 200%;
+    background-position: 0% 50%;
+    animation: 5s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 100;
+    transition: all 0.2s;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+#whatsapp {
+    background-color: #25d366;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 50px;
+}
+#linkedin {
+    background-color: #4267b3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+#footer_copyrights {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 1rem 0;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
