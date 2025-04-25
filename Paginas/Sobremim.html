@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../Styles/styles3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <title>Sobre Mim</title>
 </head>
 <body>
@@ -69,41 +71,19 @@
             </article> 
         </article>
         <section id="conteiner3">
-            <figure id="fotos">
-                <div class="slider">
-                    <div class="slides">
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        
-                        <div class="slide first">
-                            <img src="../imagens/Foto1.jpg" alt="Foto de Leonardo Pereira" id="foto1">
-                        </div>
-                        <div class="slide">
-                            <img src="../imagens/Foto2.jpg" alt="Foto de Leonardo Pereira" id="foto2">
-                        </div>
-                        <div class="slide">
-                            <img src="../imagens/foto3.jpg" alt="Foto de Leonardo Pereira" id="foto3">
-                    </div>
-                        <div class="slide">
-                            <img src="../imagens/foto5.jpg" alt="Foto de Leonardo Pereira" id="foto4">
-                        </div>
-                
-                    <div class="navigation-auto"> 
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-                    
-                    </div>
+            <figure>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"> <img src="../imagens/Foto1.jpg" alt="Foto de Leonardo"></div>
+                  <div class="swiper-slide"><img src="../imagens/foto2.jpg" alt="Foto de Leonardo"></div>
+                  <div class="swiper-slide"> <img src="../imagens/foto3.jpg" alt=""></div>
+                    <div class="swiper-slide"> <img src="../imagens/foto4.jpg" alt="Foto de Leonardo"></div>
+                    <div class="swiper-slide"> <img src="../imagens/foto5.jpg" alt="Foto de Leonardo"></div>
                 </div>
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
+                <div class="swiper-pagination"></div>
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </figure>
             <div class="mid">
                 <h2>Contato</h2>
@@ -113,7 +93,7 @@
                     <li><a href="https://wa.me/qr/QKZPTNJG5BB2H1" class="links" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></a></li>
                     <li><a href="https://www.linkedin.com/in/leonardo-pereira-489726319" class="links" id="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
-            <section>
+            </section>
                 <h2>Habilidades</h2>
                 <ul class="habilidades">
                     <li>Engajado em sempre aprender o novo</li>
@@ -121,7 +101,7 @@
                     <li>Programador-Junior</li>
                 </ul>
             </div>
-        </section>
+        
     </section>
 </section>
     </main>
@@ -131,6 +111,9 @@
             2025. Leonardo Pereira. Todos direitos reservados
             </div>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../Scripts/Script.js"></script>
+
 </body>
 </html>

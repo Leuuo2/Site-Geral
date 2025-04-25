@@ -5,17 +5,30 @@ menu.addEventListener('click', function() {
  menuLinks.classList.toggle('active');
 });
 
-let count =1;
-    document.getElementById("radio1").checked = true;
-    setInterval(function(){
-        nextImage();
-    
-    }, 5000);
+const swiper = new Swiper('.swiper', {
 
-function nextImage(){
-    count++;
-    if(count>4){
-        count=1;
-    }
-    document.getElementById("radio"+count).checked = true;
-}
+    direction: 'vertical',
+    loop: true,
+    
+        
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    speed: 1000,
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    grabCursor: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    } } );
+    
